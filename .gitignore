@@ -1,0 +1,5 @@
+*.svm
+*.model
+*.kdev4
+*.txt
+*~
