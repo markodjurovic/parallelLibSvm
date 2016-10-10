@@ -314,7 +314,7 @@ namespace core{
         void OpenClBase::init(uint platformID, uint deviceID, bool listOnly) throw (SDException&) {
             char info[256];
             cl_platform_id platform[MAX_PLATFORMS];
-            cl_uint num_platforms;                        
+            cl_uint num_platforms = 0;                        
             
             err = clGetPlatformIDs(MAX_PLATFORMS, platform, &num_platforms);
             err_check(err, "OpenclTools::init clGetPlatformIDs");

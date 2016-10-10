@@ -293,6 +293,8 @@ enum LIBSVM_CLASS_TYPE{
     SVR_Q_TYPE,
 };
 
+typedef unsigned char uchar;
+
 #endif	/* TYPEDEFS_H */
 
 

@@ -10,7 +10,6 @@
 
 #include <pthread.h>
 #include <fstream>
-#include "opencv2/core/core.hpp"
 #include "core/util/MemTracker.h"
 
 
